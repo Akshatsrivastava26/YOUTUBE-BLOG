@@ -5,7 +5,7 @@ const router = Router();
 
 
 router.get('/signin', (req, res) => {
-    return res.send('signin');
+    return res.render('signin');
 });
 
 
