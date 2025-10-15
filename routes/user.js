@@ -10,7 +10,7 @@ router.get('/signin', (req, res) => {
 
 
 router.get('/signup', (req, res) => {
-    return res.send('signup');
+    return res.render('signup');
 });
 
 
